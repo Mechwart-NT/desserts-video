@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Layout */
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /* Colors */
+  --color-red: hsl(14, 86%, 42%);
+  --color-green: hsl(159, 69%, 38%);
+
+  --color-rose-50: hsl(20, 50%, 98%);
+  --color-rose-100: hsl(13, 31%, 94%);
+  --color-rose-300: hsl(14, 25%, 72%);
+  --color-rose-400: hsl(7, 20%, 60%);
+  --color-rose-500: hsl(12, 20%, 44%);
+  --color-rose-900: hsl(14, 65%, 9%);
+
+  /* Typography */
+
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  font-family: 'Red Hat Text', sans-serif;;
+  font-size: 16px;
+}
+
+body{
+  background: var(--color-rose-100);
+}
